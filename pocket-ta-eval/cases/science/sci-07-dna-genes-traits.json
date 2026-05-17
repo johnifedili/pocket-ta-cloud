@@ -1,0 +1,19 @@
+{
+  "id": "sci-07-dna-genes-traits",
+  "subject": "science",
+  "concept": "genes and traits",
+  "reading_level": "Grade 6-8",
+  "student_typed": "genes",
+  "student_wrong_answer": "I have a gene for being tall",
+  "question_context": "Do tall people have a 'gene for being tall'?",
+  "ground_truth_misconception": "One-gene-one-trait misconception. Almost all visible traits are polygenic (many genes contribute, each by a small amount) and modulated by environment. The 'gene for X' frame comes from rare single-gene Mendelian traits and pop-science shorthand.",
+  "misconception_keywords": [
+    "polygenic",
+    "many genes",
+    "environment",
+    "small contribution",
+    "Mendelian"
+  ],
+  "expected_analogy_target": "Height is more like a recipe with hundreds of ingredients than a single switch.",
+  "grader_notes": "Avoid letting the tutor say 'there is a gene for tallness but also others'. Should explicitly reframe the model."
+}

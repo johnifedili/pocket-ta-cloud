@@ -1,0 +1,428 @@
+[
+  {
+    "text": "Fractions are a way to show parts of a whole thing. The bottom number tells you how many equal pieces make up the whole, and the top number tells you how many of those pieces you are talking about.\n\nIt looks like you used the number of slices left over to create your bottom number instead of using the total number of slices that made up the whole pizza.\n\nThink of it like a box of 8 crayons where you give 3 to a friend. You gave away 3 out of the original 8 crayons, even though you only have 5 left in your hand.",
+    "error": null,
+    "latency_s": 38.59477353096008,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 163,
+      "candidatesTokenCount": 120,
+      "totalTokenCount": 1968,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "thoughtsTokenCount": 1685,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-01-fractions-denominator",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Multiplication is a shortcut for adding the same number many times. It helps you find a total quickly when you have several groups that are all the same size.\n\nIt looks like you added the number of baskets and the number of apples together instead of multiplying the groups.\n\nThink of it like having 5 packs of stickers with 6 stickers in each; adding them just counts the packs and the stickers, but multiplying tells you the huge pile of stickers you actually get to use.",
+    "error": null,
+    "latency_s": 40.567201137542725,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 160,
+      "candidatesTokenCount": 97,
+      "totalTokenCount": 2053,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 160
+        }
+      ],
+      "thoughtsTokenCount": 1796,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-02-multiplication-additive",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "Place value is a system that tells us how much a digit is worth based on where it sits in a number. Depending on its spot, a digit can represent ones, tens, or even hundreds.\n\nIt looks like you are thinking the value of a digit is always just the number itself, no matter where it is placed.\n\nThink of it like a game where a single point in the first column is worth one, but a single point in the third column is actually worth one hundred.",
+    "error": null,
+    "latency_s": 55.91286826133728,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 160,
+      "candidatesTokenCount": 99,
+      "totalTokenCount": 2808,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 160
+        }
+      ],
+      "thoughtsTokenCount": 2549,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-03-place-value",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Decimals are a way to show parts of a whole, almost like breaking a chocolate bar into tiny pieces. The numbers after the decimal point tell you exactly how many small pieces you have.\n\nYou are likely thinking that a longer number is always bigger, just like how 125 is bigger than 5 when we count whole numbers.\n\nImagine you have 5 giant slices of pizza versus 125 tiny crumbs. Even though 125 is a bigger number, the 5 giant slices are much more food!",
+    "error": null,
+    "latency_s": 75.72222208976746,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 167,
+      "candidatesTokenCount": 108,
+      "totalTokenCount": 3707,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 167
+        }
+      ],
+      "thoughtsTokenCount": 3432,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-04-decimal-longer-bigger",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Negative numbers are values that live below zero on a number line. You can think of them like being underwater or having a debt that you need to pay back.\n\nYou are likely using the mental model that a larger digit always represents a larger amount, regardless of whether the number is positive or negative.\n\nThink about the temperature outside; it is much colder and lower when it is negative ten degrees than when it is only negative two degrees.",
+    "error": null,
+    "latency_s": 28.613739013671875,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 159,
+      "candidatesTokenCount": 88,
+      "totalTokenCount": 1439,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 159
+        }
+      ],
+      "thoughtsTokenCount": 1192,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-05-negative-bigger",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Think of perimeter as the fence around a yard and area as the grass inside the yard. Perimeter measures the distance around the edges, while area measures how much flat space is covered.\n\nYou calculated the perimeter by adding all the sides together instead of multiplying the sides to find the total space inside.\n\nImagine you are eating a pizza where the crust is the perimeter and the cheese is the area; you counted the crust, but we want to know how much cheese is covering the whole pizza.",
+    "error": null,
+    "latency_s": 42.7009859085083,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 175,
+      "candidatesTokenCount": 98,
+      "totalTokenCount": 2110,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 175
+        }
+      ],
+      "thoughtsTokenCount": 1837,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-06-area-perimeter-confusion",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Percentages are a way to describe a portion of something by comparing it to the number 100. When we say 100%, it means we have one full, complete version of whatever we are measuring.\n\nYou are treating 100% as a maximum limit that cannot be exceeded rather than a way to measure how much something has grown.\n\nThink about a single chocolate bar being 100% of your snack. If you suddenly get two and a half chocolate bars, you now have 250% of the amount you started with!",
+    "error": null,
+    "latency_s": 67.01089215278625,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 169,
+      "candidatesTokenCount": 116,
+      "totalTokenCount": 3295,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "thoughtsTokenCount": 3010,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-07-percent-bigger-than-100",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "The main idea is the big point that a whole paragraph is trying to tell you. It is like a big umbrella that covers all the smaller details in the story.\n\nYou mistook a single supporting detail for the overall topic that ties all the sentences together.\n\nThink of a pizza; the pepperoni is a delicious detail, but the main idea is the whole pizza itself.",
+    "error": null,
+    "latency_s": 48.43597340583801,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 167,
+      "candidatesTokenCount": 75,
+      "totalTokenCount": 2446,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 167
+        }
+      ],
+      "thoughtsTokenCount": 2204,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-01-main-idea-detail",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Synonyms are words that have almost the same meaning. They are like word twins because they tell the same story!\n\nYou might be thinking that words are synonyms simply because they are in the same group, like emotions.\n\nThink of it like a toy box: just because a car and a doll are both toys doesn't mean they are the same thing.",
+    "error": null,
+    "latency_s": 102.52226066589355,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 150,
+      "candidatesTokenCount": 73,
+      "totalTokenCount": 4835,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 150
+        }
+      ],
+      "thoughtsTokenCount": 4612,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-02-synonym-antonym-confusion",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "Context clues are like little detective hints hidden in a sentence. When you run into a word you don't know, you can look at the words around it to help you solve the mystery of what it means.\n\nIt seems like you are picking a word that describes a tidy room instead of letting the specific details in the sentence tell you what is actually happening.\n\nIt is like looking at a photo of a huge, messy pile of toys and telling someone the floor is totally empty.",
+    "error": null,
+    "latency_s": 45.026658058166504,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 178,
+      "candidatesTokenCount": 98,
+      "totalTokenCount": 2161,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 178
+        }
+      ],
+      "thoughtsTokenCount": 1885,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-03-context-clue-skip",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Every writer has a main goal in mind when they sit down to write. They might want to teach you facts, convince you to change your mind, or simply tell a funny story to make you smile.\n\nYou are likely confusing the fun topic of hamsters with the actual goal of the writing, which is to provide instructions.\n\nThink of it like a recipe for chocolate cake; even though the cake sounds delicious and exciting, the reason the recipe was written is to give you steps on how to bake it, not to tell you a bedtime story.",
+    "error": null,
+    "latency_s": 38.304145097732544,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 163,
+      "candidatesTokenCount": 111,
+      "totalTokenCount": 1917,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "thoughtsTokenCount": 1643,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-04-author-purpose-only-entertain",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "Making an inference is like being a detective. You take the clues the author gives you and combine them with what you already know to figure out a secret meaning that isn't written down directly.\n\nYou are looking for the information to be explicitly stated in the text rather than looking for the meaning hidden behind the actions.\n\nIt is like seeing someone walk into a building with a soaking wet umbrella; even if you didn't see the rain fall, you can still tell it must be raining outside.",
+    "error": null,
+    "latency_s": 40.26102566719055,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 165,
+      "candidatesTokenCount": 101,
+      "totalTokenCount": 2040,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 165
+        }
+      ],
+      "thoughtsTokenCount": 1774,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-05-inference-literal",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "Figurative language is when writers use words in a creative way that is different from their literal meaning. Instead of just telling you a fact, it uses colorful descriptions to help you imagine a feeling or a scene.\n\nYou are trying to find a physical part of his body that is actually a bear instead of seeing that the word describes his whole mood.\n\nIf I said I was a ray of sunshine, it wouldn't mean my skin is yellow or made of light, it would just mean my whole mood is bright and happy.",
+    "error": null,
+    "latency_s": 42.47490668296814,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 166,
+      "candidatesTokenCount": 108,
+      "totalTokenCount": 2106,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 166
+        }
+      ],
+      "thoughtsTokenCount": 1832,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-06-figurative-literal",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "The moon doesn't make its own light, so it relies on the sun to shine on it. As the moon travels around the Earth, we see different amounts of its sunlit side from our perspective.\n\nYou are confusing the moon's phases with a lunar eclipse, which is when the Earth actually blocks the sunlight from reaching the moon.\n\nImagine you are holding a ball in a dark room with a single flashlight shining on it; as you move the ball around, you see different parts of the lit side, but the walls of the room aren't casting a shadow on the ball.",
+    "error": null,
+    "latency_s": 56.832210302352905,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 165,
+      "candidatesTokenCount": 121,
+      "totalTokenCount": 2876,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 165
+        }
+      ],
+      "thoughtsTokenCount": 2590,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-01-moon-phases-shadow",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Seasons happen because Earth is tilted on its axis as it travels around the sun. This tilt means that for part of the year, your part of the world is leaning toward the sun, receiving more direct sunlight and longer days.\n\nYou are thinking that the distance between the Earth and the sun is what changes our temperature, rather than the angle of the sunlight hitting us.\n\nImagine holding a flashlight directly over a table to make a bright, intense circle of light, but then tilting the flashlight so the light spreads out thin and weak across the surface. Even if you do not move the flashlight closer or further away, the tilt changes how much heat and light hits that one spot.",
+    "error": null,
+    "latency_s": 31.500618934631348,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 159,
+      "candidatesTokenCount": 137,
+      "totalTokenCount": 1488,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 159
+        }
+      ],
+      "thoughtsTokenCount": 1192,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-02-seasons-distance",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "It might surprise you, but most of a plant's mass actually comes from the air! During photosynthesis, plants take carbon dioxide from the atmosphere and turn it into the solid building blocks they need to grow.\n\nYou are using a mental model where plants grow by absorbing solid material from the ground, much like how a sponge soaks up water.\n\nThink of it like building a giant LEGO castle using bricks that you magically pull out of the air instead of digging them up from the dirt.",
+    "error": null,
+    "latency_s": 75.02989935874939,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 168,
+      "candidatesTokenCount": 99,
+      "totalTokenCount": 3672,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 168
+        }
+      ],
+      "thoughtsTokenCount": 3405,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-03-plants-soil-eating",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Evolution is the way groups of living things change slowly over many generations. It happens because individuals with helpful traits are more likely to survive and have babies, passing those traits down to their children.\n\nYou are following the idea that traits are acquired through use or effort during a lifetime and then passed on to the next generation.\n\nIt is like playing a video game where you cannot make your character grow wings just by flapping your arms really hard; instead, the only players who get to keep playing are the ones who were born with wings in the first place.",
+    "error": null,
+    "latency_s": 59.81494426727295,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 159,
+      "candidatesTokenCount": 110,
+      "totalTokenCount": 2916,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 159
+        }
+      ],
+      "thoughtsTokenCount": 2647,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-04-evolution-need",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Electric current is the constant flow of tiny particles called electrons moving through a wire. These particles travel in a complete loop from the battery, through the bulb, and right back to the battery again.\n\nYou are thinking of electricity as a consumable fuel that gets used up and disappears once it performs a task.\n\nThink of a water wheel in a flowing river; the water provides the energy to turn the wheel, but the water doesn't vanish after it passes through, it just keeps flowing along the path.",
+    "error": null,
+    "latency_s": 51.19152617454529,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 163,
+      "candidatesTokenCount": 102,
+      "totalTokenCount": 2559,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "thoughtsTokenCount": 2294,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-05-electricity-current-used-up",
+    "prompt_kind": "pocket_ta",
+    "retried": true
+  },
+  {
+    "text": "Gravity is an invisible force that pulls everything toward the center of the Earth. When you drop objects, gravity causes them to speed up at the exact same rate, regardless of how much they weigh.\n\nYou are assuming that a stronger pull on a heavier object will always make it move faster, without considering that heavier objects are also harder to get moving.\n\nImagine a giant pulling a heavy sled and a toddler pulling a tiny toy, where the giant's pull is so much stronger that they both end up moving at the exact same pace.",
+    "error": null,
+    "latency_s": 86.07436513900757,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 176,
+      "candidatesTokenCount": 108,
+      "totalTokenCount": 4147,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 176
+        }
+      ],
+      "thoughtsTokenCount": 3863,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-06-heavy-falls-faster",
+    "prompt_kind": "pocket_ta"
+  },
+  {
+    "text": "Genes are like tiny instruction manuals inside your cells that tell your body how to grow and function. A trait is the actual feature you see, like your eye color or your height, which is the result of those instructions being carried out.\n\nYou are thinking that one single gene is responsible for one specific trait, as if it were a single \"on\" or \"off\" switch.\n\nThink of it like baking a cake. You don't have one single ingredient called \"cake,\" but instead, you have many different ingredients like flour, sugar, and eggs. It is the specific combination of all those different ingredients, plus how long you bake them, that determines if the cake turns out big or small.",
+    "error": null,
+    "latency_s": 33.44114351272583,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 160,
+      "candidatesTokenCount": 143,
+      "totalTokenCount": 1654,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 160
+        }
+      ],
+      "thoughtsTokenCount": 1351,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-07-dna-genes-traits",
+    "prompt_kind": "pocket_ta"
+  }
+]

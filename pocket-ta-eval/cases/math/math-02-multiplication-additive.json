@@ -1,0 +1,19 @@
+{
+  "id": "math-02-multiplication-additive",
+  "subject": "math",
+  "concept": "multiplication",
+  "reading_level": "Grade 3-5",
+  "student_typed": "multiplication word problems",
+  "student_wrong_answer": "11",
+  "question_context": "There are 5 baskets and each has 6 apples. How many apples in total?",
+  "ground_truth_misconception": "Student adds the two numbers instead of multiplying. The word 'each' signals repeated groups but the student treats both numbers as one-time counts.",
+  "misconception_keywords": [
+    "added",
+    "addition",
+    "groups",
+    "each",
+    "repeated"
+  ],
+  "expected_analogy_target": "Multiple equal groups (5 baskets of 6) versus two separate piles (5 and 6).",
+  "grader_notes": "A correct response should mention the word 'each' as the linguistic signal."
+}

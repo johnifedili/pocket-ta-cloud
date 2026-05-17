@@ -1,0 +1,19 @@
+{
+  "id": "sci-02-seasons-distance",
+  "subject": "science",
+  "concept": "why we have seasons",
+  "reading_level": "Grade 6-8",
+  "student_typed": "why is summer hotter",
+  "student_wrong_answer": "Earth is closer to the sun in summer",
+  "question_context": "Why is summer hotter than winter?",
+  "ground_truth_misconception": "Distance-from-sun misconception. Seasons are caused by Earth's axial tilt (23.5\u00b0) changing the angle and duration of sunlight, not by the very slight orbital distance variation. Famously caught in 'A Private Universe' (Harvard).",
+  "misconception_keywords": [
+    "tilt",
+    "axis",
+    "angle",
+    "direct sunlight",
+    "hemisphere"
+  ],
+  "expected_analogy_target": "Holding a flashlight straight down vs. at an angle on a piece of paper \u2014 same bulb, very different brightness per area.",
+  "grader_notes": "If the tutor only says 'tilt' without explaining WHY tilt creates more heat (angle/concentration), grade analogy as 2 not 3."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sci-03-plants-soil-eating",
+  "subject": "science",
+  "concept": "where plants get their mass",
+  "reading_level": "Grade 6-8",
+  "student_typed": "where does the wood in a tree come from",
+  "student_wrong_answer": "From the soil",
+  "question_context": "When a small tree grows into a big tree, where does all that extra wood come from?",
+  "ground_truth_misconception": "Plants-eat-soil misconception. Most of a plant's dry mass comes from carbon pulled out of the air (CO2) during photosynthesis, NOT from the soil. Soil supplies water and trace minerals.",
+  "misconception_keywords": [
+    "air",
+    "carbon dioxide",
+    "photosynthesis",
+    "soil",
+    "mass"
+  ],
+  "expected_analogy_target": "A tree is mostly 'made of air' \u2014 the trunk is rearranged CO2 plus water.",
+  "grader_notes": "Classic Driver et al. + the famous Van Helmont willow tree experiment. Should mention CO2/air explicitly."
+}

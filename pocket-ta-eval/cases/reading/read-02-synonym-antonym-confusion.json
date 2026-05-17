@@ -1,0 +1,18 @@
+{
+  "id": "read-02-synonym-antonym-confusion",
+  "subject": "reading",
+  "concept": "synonyms",
+  "reading_level": "Grade 3-5",
+  "student_typed": "synonyms",
+  "student_wrong_answer": "sad",
+  "question_context": "Which word means almost the same as 'happy'?",
+  "ground_truth_misconception": "Synonym/antonym swap: student picks the opposite-meaning word, often because both 'happy' and 'sad' are common emotion words and the prompt's 'almost' didn't anchor.",
+  "misconception_keywords": [
+    "opposite",
+    "antonym",
+    "similar",
+    "same side"
+  ],
+  "expected_analogy_target": "Synonyms sit on the same side of a seesaw; antonyms sit on the other side.",
+  "grader_notes": "Should distinguish 'related word' from 'similar-meaning word'."
+}

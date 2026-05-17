@@ -1,0 +1,19 @@
+{
+  "id": "read-05-inference-literal",
+  "subject": "reading",
+  "concept": "making inferences",
+  "reading_level": "Grade 6-8",
+  "student_typed": "inferences",
+  "student_wrong_answer": "Nothing \u2014 the story doesn't say",
+  "question_context": "A character slams a door and walks out without saying goodbye. How is she feeling?",
+  "ground_truth_misconception": "Literal-reading misconception: student refuses to draw inferences because 'it doesn't say'. Inferring is the act of using clues + prior knowledge to fill a gap the author left open on purpose.",
+  "misconception_keywords": [
+    "clues",
+    "prior knowledge",
+    "implied",
+    "between the lines",
+    "evidence"
+  ],
+  "expected_analogy_target": "Footprints in sand \u2014 you weren't there but you can tell someone walked through.",
+  "grader_notes": "Should name the two ingredients of inference: text clues + reader's knowledge."
+}

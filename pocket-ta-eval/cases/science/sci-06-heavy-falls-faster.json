@@ -1,0 +1,19 @@
+{
+  "id": "sci-06-heavy-falls-faster",
+  "subject": "science",
+  "concept": "gravity and falling objects",
+  "reading_level": "Grade 6-8",
+  "student_typed": "do heavy things fall faster",
+  "student_wrong_answer": "Yes, heavier things fall faster",
+  "question_context": "If I drop a brick and a small rock at the same time from the same height, which lands first (ignoring air)?",
+  "ground_truth_misconception": "Aristotelian intuition. Without air resistance, all objects fall at the same rate regardless of mass (Galileo). The misconception persists because in everyday life air resistance dominates for light objects like feathers.",
+  "misconception_keywords": [
+    "air resistance",
+    "same rate",
+    "mass",
+    "vacuum",
+    "Galileo"
+  ],
+  "expected_analogy_target": "Feather and a hammer on the moon (Apollo 15) \u2014 both hit at the same time because no air.",
+  "grader_notes": "Tutor must address WHY the intuition exists (air resistance), not just say 'they fall the same'."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sci-01-moon-phases-shadow",
+  "subject": "science",
+  "concept": "the moon's phases",
+  "reading_level": "Grade 6-8",
+  "student_typed": "the moon's phases",
+  "student_wrong_answer": "Earth's shadow is what causes the phases",
+  "question_context": "Why does the moon look different on different nights?",
+  "ground_truth_misconception": "Confusing phases with lunar eclipses. Phases are caused by which part of the moon is lit BY THE SUN (depending on its orbital position), not by Earth's shadow. Earth's shadow on the moon is an eclipse, which is rare.",
+  "misconception_keywords": [
+    "eclipse",
+    "shadow",
+    "sun",
+    "orbit",
+    "lit",
+    "illuminated"
+  ],
+  "expected_analogy_target": "Walk around a friend holding a flashlight on one side \u2014 different views show different lit portions of their face.",
+  "grader_notes": "This is THE canonical moon-phase misconception (Driver et al.). Strong tutor names eclipse explicitly."
+}

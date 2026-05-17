@@ -1,0 +1,19 @@
+{
+  "id": "math-05-negative-bigger",
+  "subject": "math",
+  "concept": "negative numbers",
+  "reading_level": "Grade 6-8",
+  "student_typed": "negative numbers comparison",
+  "student_wrong_answer": "-10 is bigger than -2",
+  "question_context": "Which is bigger: -10 or -2?",
+  "ground_truth_misconception": "Student applies absolute-value intuition from positive numbers: 10 > 2 so they say -10 > -2. Ignores that on a number line further left = smaller.",
+  "misconception_keywords": [
+    "absolute value",
+    "number line",
+    "left",
+    "further",
+    "size"
+  ],
+  "expected_analogy_target": "Temperature or debt analogy: -10 degrees is colder than -2; owing $10 is worse than owing $2.",
+  "grader_notes": "Should explicitly contrast 'magnitude' with 'position on the number line'."
+}

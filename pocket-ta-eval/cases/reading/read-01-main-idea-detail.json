@@ -1,0 +1,19 @@
+{
+  "id": "read-01-main-idea-detail",
+  "subject": "reading",
+  "concept": "main idea",
+  "reading_level": "Grade 3-5",
+  "student_typed": "main idea",
+  "student_wrong_answer": "Dogs rescue lost hikers",
+  "question_context": "A paragraph describes how dogs guard houses, help blind people, and rescue lost hikers. What is the main idea?",
+  "ground_truth_misconception": "Detail-as-main-idea: student picks one specific example from the paragraph instead of the umbrella claim that covers all examples.",
+  "misconception_keywords": [
+    "umbrella",
+    "all",
+    "detail",
+    "example",
+    "cover"
+  ],
+  "expected_analogy_target": "Whole pizza vs. one slice \u2014 the main idea is the pizza, the details are the slices.",
+  "grader_notes": "Student picked the most vivid detail. Tutor should diagnose 'most memorable \u2260 main'."
+}

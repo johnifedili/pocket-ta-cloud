@@ -1,0 +1,19 @@
+{
+  "id": "sci-05-electricity-current-used-up",
+  "subject": "science",
+  "concept": "electric current",
+  "reading_level": "Grade 6-8",
+  "student_typed": "electric current in a circuit",
+  "student_wrong_answer": "The bulb uses up the electricity",
+  "question_context": "In a simple circuit with a battery and a bulb, what happens to the electricity?",
+  "ground_truth_misconception": "Current-consumed misconception. Charge is conserved \u2014 the same current that enters the bulb leaves it. What is transferred is energy, not charge. (Shipstone, Osborne)",
+  "misconception_keywords": [
+    "energy",
+    "charge",
+    "conserved",
+    "same current",
+    "transfer"
+  ],
+  "expected_analogy_target": "Water in a closed pipe loop \u2014 the water doesn't get used up by a paddle wheel, the water's energy turns the wheel.",
+  "grader_notes": "Tutor must distinguish energy (transferred) from current (conserved)."
+}

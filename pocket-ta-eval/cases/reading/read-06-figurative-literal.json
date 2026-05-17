@@ -1,0 +1,19 @@
+{
+  "id": "read-06-figurative-literal",
+  "subject": "reading",
+  "concept": "figurative language",
+  "reading_level": "Grade 3-5",
+  "student_typed": "metaphors",
+  "student_wrong_answer": "It means his stomach is a bear",
+  "question_context": "What does it mean when a story says 'He was a bear before his morning coffee'?",
+  "ground_truth_misconception": "Literal interpretation of metaphor: student parses the sentence syntactically rather than figuratively. Common in younger readers and ESL learners.",
+  "misconception_keywords": [
+    "figurative",
+    "literal",
+    "like",
+    "compare",
+    "metaphor"
+  ],
+  "expected_analogy_target": "When you say 'it's raining cats and dogs', no real pets are falling.",
+  "grader_notes": "Tutor should explicitly contrast literal vs figurative reading."
+}

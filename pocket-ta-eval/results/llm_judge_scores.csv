@@ -1,0 +1,41 @@
+case_id,prompt_kind,names_misconception,analogy_quality,follow_up_valid,brief_reason,judge_latency_s
+read-03-context-clue-skip,vanilla,0,1,0,The tutor provides a generic explanation of context clues without addressing the student's specific error or guiding them back to the text.,14.7
+math-04-decimal-longer-bigger,vanilla,0,1,0,The tutor provides a generic definition of decimals without addressing the student's specific misconception or the problem at hand.,14.4
+read-04-author-purpose-only-entertain,vanilla,0,0,0,The tutor provides a generic definition of the concept without addressing the student's specific error or guiding them toward the correct answer.,15.8
+sci-04-evolution-need,pocket_ta,1,2,1,The tutor explicitly identifies the Lamarckian misconception and uses a targeted analogy to contrast acquired traits with innate variation.,15.1
+math-06-area-perimeter-confusion,pocket_ta,1,1,1,"The tutor explicitly identifies that the student calculated perimeter instead of area, though the analogies are generic to the concept rather than specific to the error.",20.7
+math-05-negative-bigger,pocket_ta,1,2,1,The tutor explicitly identifies the absolute-value misconception and uses a targeted temperature analogy to correct it.,16.1
+read-04-author-purpose-only-entertain,pocket_ta,1,2,1,The tutor correctly identifies the confusion between topic and purpose and provides a highly targeted analogy to correct it.,15.2
+read-05-inference-literal,vanilla,0,1,1,"The tutor explains the correct concept and addresses the 'didn't say' logic, but never explicitly diagnoses the student's literal-reading misconception.",31.3
+math-05-negative-bigger,vanilla,0,1,0,The tutor provides a general definition of negative numbers but fails to address the student's specific misconception or guide them toward the correct answer.,14.8
+read-06-figurative-literal,pocket_ta,1,2,1,The tutor explicitly identifies the literal interpretation error and uses a perfectly mirrored analogy to correct the mental model.,16.8
+math-02-multiplication-additive,pocket_ta,1,2,1,The tutor explicitly identifies the addition error and provides a targeted analogy that contrasts adding the group count with multiplying it.,16.4
+read-02-synonym-antonym-confusion,pocket_ta,1,2,1,The tutor correctly identifies the category-based confusion and uses a targeted analogy to correct it.,16.7
+math-04-decimal-longer-bigger,pocket_ta,1,2,1,The tutor explicitly identifies the whole-number transfer error and uses a targeted analogy to correct the 'more digits = bigger' misconception.,16.7
+sci-06-heavy-falls-faster,vanilla,0,0,0,The tutor provides a general explanation of gravity but fails to address the student's specific misconception or answer the question.,19.1
+read-06-figurative-literal,vanilla,0,0,0,The tutor provides a general definition of figurative language but fails to diagnose the student's literal interpretation or guide them toward the correct answer.,18.5
+sci-02-seasons-distance,pocket_ta,1,2,1,The tutor explicitly identifies the distance misconception and uses a targeted analogy to demonstrate how angle affects intensity regardless of distance.,15.2
+sci-03-plants-soil-eating,pocket_ta,1,2,1,"The tutor explicitly identifies the misconception, uses a targeted analogy to contrast air vs. soil, and provides a corrective explanation.",13.3
+math-07-percent-bigger-than-100,pocket_ta,1,2,1,The tutor explicitly identifies the 'ceiling' misconception and uses a targeted analogy to demonstrate scaling beyond 100%.,16.4
+sci-01-moon-phases-shadow,vanilla,0,0,0,The tutor provides a correct explanation of the concept but completely ignores the student's specific misconception regarding Earth's shadow.,17.3
+math-03-place-value,pocket_ta,1,2,1,The tutor explicitly identifies the face-value misconception and provides a targeted analogy to correct it.,14.7
+math-01-fractions-denominator,pocket_ta,1,2,1,The tutor explicitly identifies the misconception and uses a targeted analogy to correct the student's mental model.,15.1
+read-05-inference-literal,pocket_ta,1,2,1,The tutor correctly identifies the literal-reading error and uses a targeted analogy to explain how to infer from indirect clues.,23.8
+sci-05-electricity-current-used-up,pocket_ta,1,2,1,The tutor explicitly identifies the consumption misconception and uses a targeted water wheel analogy to correct it.,14.6
+read-03-context-clue-skip,pocket_ta,1,2,1,The tutor correctly identifies the failure to use sentence details and provides a specific analogy targeting the contradiction of evidence.,24.2
+sci-07-dna-genes-traits,vanilla,0,1,0,The tutor provides a general definition of genes and traits but fails to address the specific one-gene-one-trait misconception.,14.9
+sci-04-evolution-need,vanilla,0,0,0,The tutor provides a generic explanation of evolution without addressing or correcting the student's specific Lamarckian misconception.,18.7
+sci-07-dna-genes-traits,pocket_ta,1,2,1,The tutor explicitly identifies the one-gene-one-trait misconception and uses a targeted analogy to explain polygenic inheritance.,14.7
+sci-01-moon-phases-shadow,pocket_ta,1,2,1,The tutor explicitly identifies the confusion with lunar eclipses and provides a targeted analogy to correct the shadow misconception.,15.0
+math-03-place-value,vanilla,0,0,1,The tutor explains the concept correctly but does not explicitly diagnose the student's face-value misconception.,25.3
+math-01-fractions-denominator,vanilla,0,1,1,The tutor explains the correct concept of the denominator but does not explicitly diagnose the student's specific error of using the remainder.,28.7
+sci-06-heavy-falls-faster,pocket_ta,1,2,1,The tutor explicitly identifies the misconception regarding mass and force and provides a targeted analogy to correct it.,16.0
+read-01-main-idea-detail,pocket_ta,1,2,1,The tutor explicitly identifies the detail-as-main-idea error and uses a targeted pizza analogy to illustrate the part-whole relationship.,19.9
+math-06-area-perimeter-confusion,vanilla,0,1,0,The tutor provides general definitions and analogies but never identifies that the student specifically calculated the perimeter instead of the area.,18.7
+math-07-percent-bigger-than-100,vanilla,0,1,0,The tutor provides a generic definition of percentages that reinforces the student's misconception instead of addressing the '100% ceiling' error.,17.4
+read-02-synonym-antonym-confusion,vanilla,0,0,0,The tutor provides a generic definition of synonyms without addressing the student's specific error of picking an antonym.,13.1
+sci-02-seasons-distance,vanilla,0,0,0,The tutor provides a correct explanation of the concept but fails to address or correct the student's specific misconception regarding distance from the sun.,18.0
+sci-03-plants-soil-eating,vanilla,1,0,1,"The tutor correctly identifies the misconception and provides a corrective explanation, but does not use an analogy.",23.1
+sci-05-electricity-current-used-up,vanilla,0,1,0,The tutor provides a general explanation of current but fails to address or correct the student's specific misconception that electricity is consumed.,15.5
+math-02-multiplication-additive,vanilla,0,1,0,The tutor provides a general explanation of multiplication but never identifies that the student added the numbers instead of multiplying them.,21.4
+read-01-main-idea-detail,vanilla,0,1,0,The tutor provides a general definition of the concept without addressing the student's specific error of picking a detail.,24.5

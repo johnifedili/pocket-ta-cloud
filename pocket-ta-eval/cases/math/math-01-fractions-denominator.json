@@ -1,0 +1,19 @@
+{
+  "id": "math-01-fractions-denominator",
+  "subject": "math",
+  "concept": "fractions",
+  "reading_level": "Grade 3-5",
+  "student_typed": "fractions",
+  "student_wrong_answer": "3/5",
+  "question_context": "Sarah cuts a pizza into 8 equal slices and eats 3. What fraction did she eat?",
+  "ground_truth_misconception": "Student writes leftover-count in the denominator. They are reading 'parts you have / parts you don't have' instead of 'parts you have / total equal parts'.",
+  "misconception_keywords": [
+    "denominator",
+    "leftover",
+    "remaining",
+    "total",
+    "whole"
+  ],
+  "expected_analogy_target": "Total equal pieces stays fixed even after some are taken away.",
+  "grader_notes": "Watch for the trap of restating 'denominator = bottom number' without naming WHY the student wrote 5."
+}

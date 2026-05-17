@@ -1,0 +1,19 @@
+{
+  "id": "math-03-place-value",
+  "subject": "math",
+  "concept": "place value",
+  "reading_level": "Grade 3-5",
+  "student_typed": "place value",
+  "student_wrong_answer": "5",
+  "question_context": "In the number 537, what is the value of the digit 5?",
+  "ground_truth_misconception": "Student reads digit at face value, ignoring column position. The misconception is 'digits are worth themselves' rather than 'digit value = face value \u00d7 column power'.",
+  "misconception_keywords": [
+    "column",
+    "position",
+    "hundreds",
+    "place",
+    "worth"
+  ],
+  "expected_analogy_target": "Same digit means different amounts based on where it sits.",
+  "grader_notes": "Should NOT just say 'because it's in hundreds'. Should name the underlying belief 'a 5 is always 5'."
+}

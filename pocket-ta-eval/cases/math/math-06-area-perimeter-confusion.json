@@ -1,0 +1,19 @@
+{
+  "id": "math-06-area-perimeter-confusion",
+  "subject": "math",
+  "concept": "area vs perimeter",
+  "reading_level": "Grade 3-5",
+  "student_typed": "area and perimeter",
+  "student_wrong_answer": "The area of a 4 by 3 rectangle is 14",
+  "question_context": "What is the area of a rectangle that is 4 units wide and 3 units tall?",
+  "ground_truth_misconception": "Student computes perimeter (4+3+4+3=14) instead of area. They conflate 'measure the rectangle' with 'add up the sides'.",
+  "misconception_keywords": [
+    "perimeter",
+    "around",
+    "inside",
+    "cover",
+    "rows"
+  ],
+  "expected_analogy_target": "Perimeter = walking around the edge; area = filling the inside with tiles.",
+  "grader_notes": "Should name both concepts side by side, not just correct the answer."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "math-07-percent-bigger-than-100",
+  "subject": "math",
+  "concept": "percentages",
+  "reading_level": "Grade 6-8",
+  "student_typed": "percentages over 100",
+  "student_wrong_answer": "You can't have more than 100%",
+  "question_context": "A store's sales grew 150% from last year. Is that possible?",
+  "ground_truth_misconception": "Student treats 100% as a ceiling because they only encountered percentages in 'percent of a whole' contexts (test scores, pie charts). They lack the 'percentage as ratio scaling' frame.",
+  "misconception_keywords": [
+    "ceiling",
+    "ratio",
+    "growth",
+    "more than the whole",
+    "scaling"
+  ],
+  "expected_analogy_target": "Doubling = 200%; tripling = 300%. Percent is a ratio, not a cap.",
+  "grader_notes": "Should distinguish 'percent OF something' from 'percent CHANGE'."
+}

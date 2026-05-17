@@ -1,0 +1,422 @@
+[
+  {
+    "text": "A fraction shows a part of a whole thing. Imagine cutting a pizza into equal slices. The bottom number tells you how many total slices there are. The top number tells you how many of those slices you have!",
+    "error": null,
+    "latency_s": 8.93728232383728,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 43,
+      "totalTokenCount": 384,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 319,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-01-fractions-denominator",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Multiplication is a fast way to do addition. It means adding the same number over and over again. For example, $3 \\times 4$ is like having 3 groups of 4. Instead of adding $4 + 4 + 4$, you can just multiply to get 12!",
+    "error": null,
+    "latency_s": 17.899399995803833,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 63,
+      "totalTokenCount": 489,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 404,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-02-multiplication-additive",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Place value tells you how much a digit is worth based on its spot in a number. Every spot has a special name, like the ones, tens, or hundreds place. For example, the 5 in \"5\" is just five, but the 5 in \"50\" is actually fifty. Moving a digit to a new spot changes its whole value!",
+    "error": null,
+    "latency_s": 13.298033714294434,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 74,
+      "totalTokenCount": 606,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 509,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-03-place-value",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Decimals are numbers used to show parts of a whole. They use a small dot called a decimal point to separate whole numbers from the pieces. You can think of them like fractions, where each number after the dot is a tiny slice of a whole. You see them every day when you look at money, like $1.50!",
+    "error": null,
+    "latency_s": 11.664995193481445,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 69,
+      "totalTokenCount": 496,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 405,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-04-decimal-longer-bigger",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Negative numbers are values that are less than zero. You can think of them like owing money or seeing temperatures below freezing. On a number line, they live to the left of zero and always have a minus sign (-) in front. They help us measure anything that goes below a starting point.",
+    "error": null,
+    "latency_s": 18.500035285949707,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 58,
+      "totalTokenCount": 674,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 593,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-05-negative-bigger",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Perimeter is the distance all the way around the outside edge of a shape. Think of it like a fence around a yard. Area is the amount of space inside the shape. Think of it like the grass growing inside that fence.",
+    "error": null,
+    "latency_s": 14.325537919998169,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 24,
+      "candidatesTokenCount": 47,
+      "totalTokenCount": 624,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24
+        }
+      ],
+      "thoughtsTokenCount": 553,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-06-area-perimeter-confusion",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "A percentage is a way to show a part of a whole. The word \"percent\" literally means \"per hundred.\" Imagine you have 100 equal pieces; if you take 25 of them, you have 25%. It is a simple tool used to compare different amounts easily.",
+    "error": null,
+    "latency_s": 17.477462768554688,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 61,
+      "totalTokenCount": 765,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 682,
+      "serviceTier": "standard"
+    },
+    "case_id": "math-07-percent-bigger-than-100",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "The main idea is the \"big picture\" of a story. It tells you what the whole text is mostly about. You can find it by looking at all the small details. It is the most important point the author wants you to know.",
+    "error": null,
+    "latency_s": 10.11316204071045,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 49,
+      "totalTokenCount": 473,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 401,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-01-main-idea-detail",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Synonyms are words that have the same or very similar meanings. For example, \"big\" and \"large\" are synonyms. Using different synonyms can make your writing much more exciting. Instead of saying \"good\" all the time, try using \"great\" or \"wonderful\"!",
+    "error": null,
+    "latency_s": 10.296416759490967,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 56,
+      "totalTokenCount": 430,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 352,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-02-synonym-antonym-confusion",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Context clues are like secret hints hidden in a sentence. They help you figure out the meaning of a word you don't know. You can find them by looking at the words and pictures around the tricky word. It is just like being a word detective!",
+    "error": null,
+    "latency_s": 10.264881134033203,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 52,
+      "totalTokenCount": 407,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 332,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-03-context-clue-skip",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Author's purpose is the main reason why someone decides to write a text. Every writer has a goal, such as wanting to share facts or tell a funny story. You can remember the three most common types using the word \"PIE\": Persuade, Inform, or Entertain. Understanding this helps you become a much better reader!",
+    "error": null,
+    "latency_s": 15.319182395935059,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 25,
+      "candidatesTokenCount": 68,
+      "totalTokenCount": 682,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 25
+        }
+      ],
+      "thoughtsTokenCount": 589,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-04-author-purpose-only-entertain",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Making an inference is like being a detective in a story. You take clues from the text and combine them with what you already know. This helps you figure out things the author didn't say directly. It is basically \"reading between the lines\" to find the hidden meaning.",
+    "error": null,
+    "latency_s": 10.379705905914307,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 56,
+      "totalTokenCount": 416,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 337,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-05-inference-literal",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Figurative language is when you use words to mean something different than their actual meaning. It helps make your stories more colorful and exciting to read. For example, saying \"he is as brave as a lion\" doesn't mean he is actually an animal. It uses fun comparisons to paint a picture in your mind.",
+    "error": null,
+    "latency_s": 14.251065015792847,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 65,
+      "totalTokenCount": 660,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 572,
+      "serviceTier": "standard"
+    },
+    "case_id": "read-06-figurative-literal",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "The moon doesn't actually change shape, but it looks different because of how it reflects sunlight. As the moon orbits the Earth, we see different amounts of its lit side from our perspective. This cycle of changing appearances is called the moon's phases. It moves from a dark New Moon to a bright Full Moon and repeats every month.",
+    "error": null,
+    "latency_s": 10.745788335800171,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 26,
+      "candidatesTokenCount": 69,
+      "totalTokenCount": 490,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26
+        }
+      ],
+      "thoughtsTokenCount": 395,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-01-moon-phases-shadow",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Earth is tilted on its axis as it travels around the Sun. Because of this tilt, different parts of the planet receive different amounts of direct sunlight at different times of the year. When your part of the Earth tilts toward the Sun, you experience warmer summer weather. When it tilts away from the Sun, you receive less direct light and experience cooler winter weather.",
+    "error": null,
+    "latency_s": 14.820617437362671,
+    "finish_reason": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 25,
+      "candidatesTokenCount": 72,
+      "totalTokenCount": 662,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 25
+        }
+      ],
+      "thoughtsTokenCount": 565,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-02-seasons-distance",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "You might think plants get their weight from the soil, but that is actually a mistake. Most of a plant's mass actually comes from carbon dioxide gas taken from the air. Using sunlight, plants turn this gas and water into sugar through a process called photosynthesis. This sugar provides the building blocks that allow the plant to grow big and strong.",
+    "error": null,
+    "latency_s": 11.865750551223755,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 26,
+      "candidatesTokenCount": 69,
+      "totalTokenCount": 552,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26
+        }
+      ],
+      "thoughtsTokenCount": 457,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-03-plants-soil-eating",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Evolution is the process where living things change slowly over many generations. Within a group, some individuals have helpful traits, like thicker fur to stay warm in the cold. These individuals are more likely to survive and pass those helpful traits down to their babies. Over a long time, these tiny changes add up and can create entirely new species.",
+    "error": null,
+    "latency_s": 9.924782037734985,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 22,
+      "candidatesTokenCount": 67,
+      "totalTokenCount": 448,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 22
+        }
+      ],
+      "thoughtsTokenCount": 359,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-04-evolution-need",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Electric current is the flow of tiny particles called electrons moving through a wire. You can imagine it like water flowing through a garden hose. To keep the current moving, there must be a complete loop called a circuit. This steady flow of energy is what powers your lights, gadgets, and toys.",
+    "error": null,
+    "latency_s": 11.120493173599243,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 23,
+      "candidatesTokenCount": 59,
+      "totalTokenCount": 439,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ],
+      "thoughtsTokenCount": 357,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-05-electricity-current-used-up",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Gravity is an invisible force that pulls all objects toward each other. Because Earth is so massive, its gravity pulls everything toward its center. This is why when you drop an object, it falls straight down to the ground instead of floating away. No matter how heavy or light an object is, gravity is always pulling it down!",
+    "error": null,
+    "latency_s": 10.522709608078003,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 25,
+      "candidatesTokenCount": 65,
+      "totalTokenCount": 444,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 25
+        }
+      ],
+      "thoughtsTokenCount": 354,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-06-heavy-falls-faster",
+    "prompt_kind": "vanilla"
+  },
+  {
+    "text": "Genes are like tiny instruction manuals found inside almost every cell of your body. They act as blueprints that tell your body how to grow and function. Traits are the actual features you see, such as your eye color or height. Basically, your genes are the instructions that determine what your traits will be.",
+    "error": null,
+    "latency_s": 10.562433958053589,
+    "finish_reason": "STOP",
+    "usage": {
+      "promptTokenCount": 24,
+      "candidatesTokenCount": 60,
+      "totalTokenCount": 478,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24
+        }
+      ],
+      "thoughtsTokenCount": 394,
+      "serviceTier": "standard"
+    },
+    "case_id": "sci-07-dna-genes-traits",
+    "prompt_kind": "vanilla"
+  }
+]

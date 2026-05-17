@@ -1,0 +1,19 @@
+{
+  "id": "read-04-author-purpose-only-entertain",
+  "subject": "reading",
+  "concept": "author's purpose",
+  "reading_level": "Grade 6-8",
+  "student_typed": "author's purpose",
+  "student_wrong_answer": "To entertain",
+  "question_context": "Why did the author write a how-to article about taking care of a hamster?",
+  "ground_truth_misconception": "Default-to-entertain misconception. Students learn 'authors entertain' from fiction and default to it. Three common purposes are entertain / inform / persuade; how-to writing is informational.",
+  "misconception_keywords": [
+    "inform",
+    "entertain",
+    "persuade",
+    "instructional",
+    "purpose"
+  ],
+  "expected_analogy_target": "A recipe is not a story \u2014 author's job there is to teach you how to do something.",
+  "grader_notes": "Tutor should name all three purposes and explain how to tell them apart."
+}

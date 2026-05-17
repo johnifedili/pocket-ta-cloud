@@ -1,0 +1,15 @@
+{
+  "judge_model": "gemma-4-31b-it",
+  "vanilla": {
+    "n": 20,
+    "names_misconception_rate": 0.05,
+    "analogy_quality_mean": 0.55,
+    "follow_up_valid_rate": 0.2
+  },
+  "pocket_ta": {
+    "n": 20,
+    "names_misconception_rate": 1.0,
+    "analogy_quality_mean": 1.95,
+    "follow_up_valid_rate": 1.0
+  }
+}

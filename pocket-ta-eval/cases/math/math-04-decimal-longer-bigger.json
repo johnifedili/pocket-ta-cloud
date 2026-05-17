@@ -1,0 +1,19 @@
+{
+  "id": "math-04-decimal-longer-bigger",
+  "subject": "math",
+  "concept": "decimals",
+  "reading_level": "Grade 3-5",
+  "student_typed": "comparing decimals",
+  "student_wrong_answer": "0.125 is bigger than 0.5",
+  "question_context": "Which is bigger: 0.125 or 0.5?",
+  "ground_truth_misconception": "Whole-number transfer error: student applies 'more digits = bigger' from whole numbers. 125 > 5, so they say 0.125 > 0.5.",
+  "misconception_keywords": [
+    "longer",
+    "more digits",
+    "whole number",
+    "place value",
+    "tenths"
+  ],
+  "expected_analogy_target": "Money intuition: $0.5 = 50 cents; $0.125 = 12.5 cents.",
+  "grader_notes": "Classic Resnick/Smith finding. Strong tutor names 'longer-is-larger' as a transferred whole-number rule."
+}

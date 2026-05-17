@@ -1,0 +1,20 @@
+{
+  "id": "sci-04-evolution-need",
+  "subject": "science",
+  "concept": "evolution",
+  "reading_level": "Grade 6-8",
+  "student_typed": "evolution",
+  "student_wrong_answer": "Giraffes grew long necks because they needed to reach high leaves",
+  "question_context": "Why do giraffes have such long necks?",
+  "ground_truth_misconception": "Lamarckian / teleological misconception: organisms develop traits because they 'need' them within their lifetime. Real mechanism: random variation in neck length pre-existed; longer-necked individuals had a survival advantage and left more offspring (natural selection).",
+  "misconception_keywords": [
+    "natural selection",
+    "variation",
+    "random",
+    "survival",
+    "offspring",
+    "need"
+  ],
+  "expected_analogy_target": "Bag of mixed marbles where the longer ones are easier to grab \u2014 keep doing that and the bag fills with longer marbles. Nobody MADE the marbles longer.",
+  "grader_notes": "The 'need' verb is the diagnostic. Tutor must reframe from intentional adaptation to differential reproduction."
+}

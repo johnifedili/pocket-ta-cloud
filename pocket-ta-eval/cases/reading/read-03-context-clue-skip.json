@@ -1,0 +1,19 @@
+{
+  "id": "read-03-context-clue-skip",
+  "subject": "reading",
+  "concept": "context clues",
+  "reading_level": "Grade 3-5",
+  "student_typed": "context clues",
+  "student_wrong_answer": "clean and organized",
+  "question_context": "In 'The room was so cluttered, with toys, books, and clothes piled everywhere, that I couldn't walk through it,' what does 'cluttered' mean?",
+  "ground_truth_misconception": "Context-skip: student guesses without using surrounding sentence. The phrase 'piled everywhere' directly contradicts 'clean' but the student didn't anchor on it.",
+  "misconception_keywords": [
+    "context",
+    "surrounding",
+    "clue",
+    "evidence",
+    "guess"
+  ],
+  "expected_analogy_target": "Witnesses around a suspect \u2014 look at who they're with.",
+  "grader_notes": "Tutor must specifically point to 'piled everywhere' as the textual evidence."
+}

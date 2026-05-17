@@ -1,0 +1,18 @@
+{
+  "vanilla": {
+    "n": 20,
+    "misconception_hit_rate": 0.05,
+    "analogy_rate": 0.7,
+    "length_ok_rate": 1.0,
+    "mean_rl_delta": 0.86,
+    "mean_latency_s": 12.61
+  },
+  "pocket_ta": {
+    "n": 20,
+    "misconception_hit_rate": 0.05,
+    "analogy_rate": 0.7,
+    "length_ok_rate": 0.7,
+    "mean_rl_delta": 4.49,
+    "mean_latency_s": 63.04
+  }
+}
